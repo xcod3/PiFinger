@@ -63,16 +63,16 @@ we too can catch them with the default settings in their software and hardware."
 #### Requirements
 
 * **Modules:** time, termcolor, sys, commands, interfaces, os
-* **OS:** Kali, Ubuntu
-* **Python Version:** 2.x
+* **OS:** Parrot, Kali, Ubuntu
+* **Python Version:** 3.x
 
 Download pifinger:
 
-`git clone https://github.com/besimaltnok/PiFinger.git`
+`git clone https://github.com/xcod3/PiFinger.git`
 
 Install Python librarie(s):
 
-`pip install -r requirements.txt`
+`pip3 install -r requirements.txt`
 
 It's done!
 
@@ -82,7 +82,7 @@ Run:
 
 ```python
 cd PiFinger/Linux
-python pifinger.py
+python3 pifinger.py
 ```
 
 ### Screenshots
